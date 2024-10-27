@@ -17,7 +17,7 @@ Windows，C语言
 ### 5.1 总体设计
 系统总体架构如图1所示，最右边部分为进程与资源管理器，属于操作系统内核的功能。该管理器具有如下功能：完成进程创建、撤销和进程调度；完成多单元 (multi_unit)资源的管理；完成资源的申请和释放；完成错误检测和定时器中断功能。
 
-![image](https://github.com/petr111chor/UESTC_OS_exp1/blob/main/%E5%9B%BE1.png)
+![image](https://github.com/petr111chor/UESTC_OS_exp1/blob/main/image1.jpg)
 
 图1中间绿色部分为驱动程序test shell, 设计与实现test shell，该test shell将调度所设计的进程与资源管理器来完成测试。Test shell的应具有的功能：
 - 从终端或者测试文件读取命令；
