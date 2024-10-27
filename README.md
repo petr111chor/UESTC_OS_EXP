@@ -46,7 +46,7 @@ Test shell要求完成的命令（Mandatory Commands）：
 > req R2 1  
 > to  
 > req R3 3  
-> to	r  
+> to	  
 > req R4 3  
 > to  
 > to  
